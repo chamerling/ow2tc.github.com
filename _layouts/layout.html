@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="description" content="The OW2.org Technology Council Blog" />
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/atom.xml" />
+  
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <!--
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', '{{ site.ga }}']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+  -->
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body style="padding-top: 20px;">
+
+<div class="container" style="width:800px;">
+  
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/">OW2 TC.blog</a>
+    <ul class="nav">
+      <li><a href="/">News</a></li>
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Contact</a></li>
+            <li><a href="/pages/members.html">Members</a></li>
+          </ul>
+        </li>
+    </ul>
+  </div>
+</div>
+
+
+{{ content }}
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/holder.js"></script>
+</body>
+</html>

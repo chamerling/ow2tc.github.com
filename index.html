@@ -1,0 +1,22 @@
+---
+layout: layout
+title: "OW2 Technology Council :: News"
+---
+
+<div class="content">
+{% for post in site.posts %}
+
+<div id="post">
+<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &nbsp;<small>{{ post.date | date: "%B %e, %Y" }}</small></h2>
+<p> {{ post.content }} </p>
+<h5><a href="{{ site.url }}{{ post.url }}#comments">Comments...</a></h5>
+
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ post.url }}" data-text="{{ post.title }}" data-count="horizontal" data-via="{{ site.twitter }}" data-related="{{ site.twitter }}" data-lang="en">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	<g:plusone size="medium" href="{{ site.url }}{{ post.url }}"></g:plusone>
+<br>
+<br>
+</div>
+<hr/>
+
+{% endfor %}
+</div>

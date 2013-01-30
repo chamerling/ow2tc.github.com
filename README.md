@@ -1,2 +1,5 @@
-ow2-technologycouncil-blog
-==========================
+# QuickHubApp
+
+GitHub from your OS X status bar!
+
+@chamerling
