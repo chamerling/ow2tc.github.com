@@ -4,7 +4,7 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-url: http://ow2.github.com/ow2-technologycouncil-blog/
+url: http://ow2tc.github.com
 #url: http://localhost:4000
 #ga: UA-26468797-1
 disqus: ow2tcblog
