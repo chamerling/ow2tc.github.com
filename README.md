@@ -1,5 +1,5 @@
-# QuickHubApp
+# TC.OW2.ORG
 
-GitHub from your OS X status bar!
+OW2.org Technology council blog
 
 @chamerling
